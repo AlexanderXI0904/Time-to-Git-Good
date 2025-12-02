@@ -24,7 +24,7 @@ int main() {
         else {
             cout << "Congratulations! You guessed the number " << number << " in " << attempts << " attempts.\n";
         }
-        attempts =+ 1;
+        attempts = attempts + 1;
     }
 
     cout << "---------------------------------\n";
