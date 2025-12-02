@@ -27,7 +27,7 @@ int main() {
         attempts =+ 1;
     }
 
-    cout << "---------------------------------\n";
+    cout << "----------HDJSHSHDSS-----------------------\n";
 
     system("pause");
     return 0;
