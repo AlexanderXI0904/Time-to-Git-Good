@@ -14,7 +14,7 @@ int main() {
 
     while (guess != number) 
     {
-        cout << "Guess a number between " << MIN << " and " << MAX - 1 << ": ";
+        cout << "Guess a number between " << MIN << " and " << MAX << ": ";
         cin >> guess;
 
         if (guess < number)
