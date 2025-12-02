@@ -10,11 +10,11 @@ int main() {
     srand(time(0));
     int number = rand() % (MAX - MIN + MIN);
 
-    int guess, attempts = 0;
+    int guess = 0, attempts = 0;
 
     while (guess != number) 
     {
-        cout << "Guess a number between " << MIN << " and " << MAX << ": ";
+        cout << "Guess a number between " << MIN << " and " << MAX - 1 << ": ";
         cin >> guess;
 
         if (guess < number)
@@ -24,7 +24,7 @@ int main() {
         else {
             cout << "Congratulations! You guessed the number " << number << " in " << attempts << " attempts.\n";
         }
-        attempts =+ 1;
+        attempts += 1;
     }
 
     cout << "---------------------------------\n";
