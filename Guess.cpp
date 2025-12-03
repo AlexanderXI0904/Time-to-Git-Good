@@ -13,7 +13,7 @@ int main()
 
     int guess, attempts = 0;
 
-    while (guess == number)
+    while (guess != number)
     {
         cout << "Guess a number between " << MIN << " and " << MAX << ": ";
         cin >> guess;
