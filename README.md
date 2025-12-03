@@ -1,17 +1,17 @@
 # Fork the repository
 Fork this repository by **clicking on the fork button** on the top of this page. This will create a copy of this repository in your account.
 
-![fork](fork.png)
+![fork](image/fork.png)
 
 # Clone the repository
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on HTTPS tab and then **click the copy url** to clipboard icon.
 
-![copy](copy.png)
+![copy](image/copy.png)
 
 Then open a new window in VS Code. Go to the folder icon (the first icon). click the clone repository icon.
 
-![clone](clone.png)
+![clone](image/clone.png)
 
 After that paste the url that you have just copied.
 
