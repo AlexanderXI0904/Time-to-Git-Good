@@ -1,61 +1,71 @@
+# Welcome to BSL Week 9 (2025/26): Time to Git Good
+This project will guide students to make their first contribution here on GitHub.
+
+Follow the steps below:
+
+
 # Fork the repository
-Fork this repository by **clicking on the fork button** on the top of this page. This will create a copy of this repository in your account.
+Fork this repository by **clicking the Fork button** at the top of this page. This will create a copy of the repository in your own GitHub account.
 
 ![fork](image/fork.png)
 
+
 # Clone the repository
 
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on HTTPS tab and then **click the copy url** to clipboard icon.
+Next, clone the forked repository to your machine.
+1. Go to your GitHub account and open the forked repository
+2. Click on the **Code button**
+3. Choose the **HTTPS tab**
+4. **Copy the URL** using the copy-to-clipboard icon.
 
 ![copy](image/copy.png)
 
-Then open a new window in VS Code. Go to the folder icon (the first icon). click the clone repository icon.
+
+Then, open a new window in VS Code. On the left sidebar, click the **Explorer (folder) icon**, then click the **Clone Repository** icon.
 
 ![clone](image/clone.png)
 
-After that paste the url that you have just copied.
+**Paste the url** you copied earlier.
+
 
 # Create a branch
+Click the **Source Control** icon (third icon on the left). Under *Repositories*, click the **branch name (main)** and **create a new branch**. Give your branch a meaningful name.
+
+![branch](image/branch.png)
 
 
-# Make necessary changes and commit those changes
-Now open Contributors.md file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+# Spot the errors and commit the changes
+Open **Guess.cpp**, look through the code and fix the errors. After saving your changes:
+1. **Stage** the modified files
+2. Write an appropriate commit message
+3. Click the **Commit** button
 
-git status
+![commit](image/commit.png)
 
-If you go to the project directory and execute the command git status, you'll see there are changes.
 
-Add those changes to the branch you just created using the git add command:
+# Push changes to GitHub
+Since this is a brand-new branch, you must **publish** it before pushing. Under *Graph*, click the **Publish Branch (cloud with up-arrow)** icon.
 
-git add Contributors.md
-Now commit those changes using the git commit command:
+![push](image/push.png)
 
-git commit -m "Add your-name to Contributors list"
-replacing your-name with your name.
 
-Push changes to GitHub
-Push your changes using the command git push:
+# Compare and create pull request
+Visit your repository on GitHub. You should see a **Compare & pull request** button. Click it.
 
-git push -u origin your-branch-name
-replacing your-branch-name with the name of the branch you created earlier.
+![compare](image/compare.png)
 
-If you get any errors while pushing, click here:
-Submit your changes for review
-If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
+Then proceed to **create the pull request**.
 
-compare and create pull request
+![pullreq](image/pullreq.png)
 
-Now submit the pull request.
+Submit the pull request.
 
-submit pull request
 
-Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
+# Done!
+Congrats! You've completed the standard **Fork -> Clone -> Edit -> Pull request** workflow, a process that you'll often encounter as a contributor!
 
-Where to go from here?
-Congrats! You just completed the standard fork -> clone -> edit -> pull request workflow that you'll often encounter as a contributor!
 
-Celebrate your contribution and share it with your friends and followers by going to web app.
+You've just mastered the final part of **Bengkel Siswa Lestari (2025/26) Week 9: Time to Git Good**! It's time to Git good!
 
-If you'd like more practice, checkout code contributions.
-
-Now let's get you started with contributing to other projects. We've compiled a list of projects with easy issues you can get started on. Check out the list of projects in the web app.
+# More resources
+Click this for the slide: [Time to Git Good Slide](https://www.canva.com/design/DAG55Fw70P8/VjVeRxna1KdJI0tHBOaPjQ/edit?utm_content=DAG55Fw70P8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
