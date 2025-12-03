@@ -12,3 +12,6 @@
 # Ignore temporary files
 *.log
 *.tmp
+
+# Ignore png
+*.png

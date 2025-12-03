@@ -1,42 +1,24 @@
-This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
+# Fork the repository
+Fork this repository by **clicking on the fork button** on the top of this page. This will create a copy of this repository in your account.
 
-If you're not comfortable with command line, here are tutorials using GUI tools.
+![fork](fork.png)
 
-fork the repository
+# Clone the repository
 
-If you don't have git on your machine, install it.
-Fork this repository
-Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on HTTPS tab and then **click the copy url** to clipboard icon.
 
-Clone the repository
-clone the repository
+![copy](copy.png)
 
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on SSH tab and then click the copy url to clipboard icon.
+Then open a new window in VS Code. Go to the folder icon (the first icon). click the clone repository icon.
 
-Open a terminal and run the following git command:
+![clone](clone.png)
 
-git clone "url you just copied"
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+After that paste the url that you have just copied.
 
-copy URL to clipboard
+# Create a branch
 
-For example:
 
-git clone git@github.com:this-is-you/first-contributions.git
-where this-is-you is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
-
-Create a branch
-Change to the repository directory on your computer (if you are not already there):
-
-cd first-contributions
-Now create a branch using the git switch command:
-
-git switch -c your-new-branch-name
-For example:
-
-git switch -c add-alonzo-church
-If you get any errors using git switch, click here:
-Make necessary changes and commit those changes
+# Make necessary changes and commit those changes
 Now open Contributors.md file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
 
 git status
