@@ -10,7 +10,7 @@ int main() {
     srand(time(0));
     int number = rand() % (MAX - MIN + MIN);
 
-    int guess, attempts = 0;
+    int guess, attempts = 1; // <. 
 
     while (guess != number) 
     {
