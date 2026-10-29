@@ -4,13 +4,13 @@
 using namespace std;
 
 int main() {
-    const int MIN = 0, MAX = 100;
+    const int MIN = 1, MAX = 100;
     cout << "=== Welcome to the Number Guessing Game! ===\n";
 
     srand(time(0));
-    int number = rand() % (MAX - MIN + MIN);
+    int number = (rand() % (MAX - MIN + 1)) + MIN;
 
-    int guess, attempts = 0;
+    int guess = 0, attempts = 1;
 
     while (guess != number) 
     {
@@ -23,8 +23,9 @@ int main() {
             cout << "Too high! Try again.\n";
         else {
             cout << "Congratulations! You guessed the number " << number << " in " << attempts << " attempts.\n";
+            break;
         }
-        attempts =+ 1;
+        attempts++;
     }
 
     cout << "---------------------------------\n";
